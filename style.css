@@ -50,7 +50,7 @@ body {
   align-items:center;
   justify-content:center;
 
-  padding: 10px;
+  padding: 0;
 }
 
 #article1 {
@@ -130,7 +130,7 @@ p {
 h1 {
   color: white;
   text-align:center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Fredoka", Times, serif;
 }
 
