@@ -1,0 +1,164 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body {
+  background-color: #1b61ab;
+  background-image: url("images/peppa pig 9.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  display:grid;
+  grid-template-columns: 20vw 15vw 15vw 15vw 15vw 20vw;
+  grid-template-rows: 10vh 45vh auto;
+}
+
+#nav {
+  background-color:#e81c74;
+
+  grid-column: 2 / 6;
+  grid-row: 1 / 2;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  padding: 10px;
+}
+
+#article1 {
+  background-color:#e81e76;
+
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+
+  background-image: url("images/peppa pig 7.jpg");
+  background-size:cover;
+  background-repeat: repeat;
+  background-position:left;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  padding: 10px;
+}
+
+#article2 {
+  background-color:#00b4eb;
+  
+  grid-column: 4 / 6;
+  grid-row: 2 / 3;
+  background-position:center;
+
+  padding: 10px;
+}
+
+#article3 {
+  background-color:#f288b8;
+
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+  background-position:center;
+
+  padding: 10px;
+}
+
+#article4 {
+  background-color:mediumpurple;
+  background-image: url("images/peppa pig 10.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+
+  grid-column: 4 / 6;
+  grid-row: 3 / 4;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+  padding: 10px;
+}
+
+p {
+  color:white;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Fredoka", Times, serif;
+}
+
+h1 {
+  color: white;
+  text-align:center;
+  font-size: 3rem;
+  font-family: "Fredoka", Times, serif;
+}
+
+h2 {
+  color:white;
+  text-align:center;
+  font-size: 2rem;
+  font-family: "Fredoka", Times, serif;
+}
+
+h3 {
+  color:white;
+  text-align:center;
+  font-size: 1.5rem;
+  font-family: "Fredoka", Times, serif;
+}
+
+h4 {
+  color:white;
+  text-align:center;
+  font-size: 1rem;
+  font-family: "Fredoka medium", Times, serif;
+}
+
+a {
+  color:white;
+  background-color:#e81e76;
+  font-family: "Fredoka medium", Times, serif;
+}
+
+a:hover {
+  background-color:#f288b8;
+}
+
+.png {
+  width: 100%;
+  height: 100%;
+  max-height: 100px;
+  object-fit:contain;
+  display:block;
+}
+
+#article4 img:hover {
+  transform: rotate(360deg);
+  transition: transform 1s;
+}
