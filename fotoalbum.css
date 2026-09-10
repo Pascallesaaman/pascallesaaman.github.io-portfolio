@@ -27,9 +27,10 @@ body {
   background-size:cover;
   background-no-repeat:no-repeat;
   background-position:center;
+
   display:grid;
   grid-template-columns: 20vw 15vw 15vw 15vw 15vw 20vw;
-  grid-template-rows: 10vh 45vh auto;
+  grid-template-rows: 11vw auto auto;
 }
 
 #nav {

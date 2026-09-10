@@ -24,10 +24,8 @@ george.onclick = function () {
 
     if (george.style.transform === "scale(1.2)") {
         george.style.transform = "scale(1)";
-        george.innerHTML = "Peppa";
     } else {
         george.style.transform = "scale(1.2)";
-        george.innerHTML = "Peppa is blij!";
     }
 
 };
